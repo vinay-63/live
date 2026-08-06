@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Score</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏏 Live Cricket Score</h1>
+  </header>
+
+  <main>
+    <section class="scoreboard">
+      <div class="team">
+        <h2>Team A</h2>
+        <p id="teamA-score" class="score">--</p>
+      </div>
+      <div class="team">
+        <h2>Team B</h2>
+        <p id="teamB-score" class="score">--</p>
+      </div>
+    </section>
+
+    <section class="updates">
+      <h3>Ball-by-Ball Updates</h3>
+      <ul id="updates-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by WebSocket Live Feed</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
